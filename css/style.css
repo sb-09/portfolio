@@ -1,0 +1,159 @@
+body{
+text-align: center;
+font-family: "Montserrat";
+}
+hr{
+  border-width: 100px 0 0;
+  border-color: #3797a4;
+}
+
+
+.font{
+font-family:sans-serif;
+}
+@media (min-width:1028px) {
+  .nav-text{
+    position:relative;
+  padding: 2% 0 2%;
+  }
+  .nav-texts{
+    position:absolute;
+    right: 10%;
+  }
+
+}
+
+@media (max-width:1028px) {
+.title-head{
+  margin: 6% auto ;
+}
+.title-header{
+  margin: 6% auto ;
+}
+.cards{
+  margin: 6% auto ;
+}
+#footer{
+  margin: 3% auto;
+}
+#contact{
+  margin-top: 3%;
+}
+#interests{
+  margin-top: 3%;
+}
+#education{
+  margin-top: 3%;
+}
+
+}
+/* TITLE SECTION */
+#title{
+background-color: #8bcdcd;
+color:  #3797a4;
+padding: 9% 20%;
+
+}
+.profile-pic{
+  height: 100% ;
+  width : 100% ;
+}
+.container-fluid{
+padding: 5% 0 5%;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+  background-color: #3797a4;
+}
+.title-head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #26303B;
+}
+.title-header{
+  font-family: 'Ubuntu', sans-serif;
+  color: #26303B;
+}
+.title-name{
+padding: 0 7% 0 ;
+}
+/* EDUCATION SECTION */
+
+#education{
+background-color: #3797a4;
+color: white;
+padding: 7% 15%;
+}
+.education-header{
+  text-align: center;
+}
+.education-card{
+  color: #30475e;
+}
+.education-text{
+  padding: 0 0 3%;
+}
+.education-card-header{
+  background-color: #3797a4;
+  color: white;
+}
+.education-status{
+  color: #26303B;
+}
+.card1{
+  padding-bottom: 3%;
+}
+.cards{
+  padding-top: 3%;
+}
+/* INTERESTS SECTION */
+
+#interests{
+background-color: #8bcdcd ;
+color:#26303B;
+text-align: center;
+padding: 3%;
+}
+#interests-carousel{
+text-align: center;
+}
+.interests-header{
+  text-align: center;
+  color:#26303B;
+}
+
+.carousel-item{
+padding: 7% 15%;
+}
+.interests-image{
+  width: 20%;
+border-radius: 100%;
+margin: 20px;
+}
+
+/* CONTACT SECTION */
+
+#contact{
+background-color: #3797a4;
+color: white;
+padding: 9% 20%;
+}
+
+/* FOOTER SECTION */
+#footer{
+  background-color: #8bcdcd;
+  text-align: center;
+  padding: 7% 15%;
+  color: #26303B;
+
+}
+.footer-icon{
+margin: 20px 10px;
+}
+.footer-icon:hover{
+color: white;
+}

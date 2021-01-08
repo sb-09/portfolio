@@ -142,7 +142,14 @@ background-color: #3797a4;
 color: white;
 padding: 9% 20%;
 }
+.email-link{
+  color: white;
+  text-decoration: none;
 
+}
+.email-link:hover{
+  color:#26303B ;
+}
 /* FOOTER SECTION */
 #footer{
   background-color: #8bcdcd;
